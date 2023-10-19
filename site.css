@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "BrokenDetroit";
+  src: url("./Broken-Detroit.ttf") format("truetype");
+}
+@font-face {
+  font-family: "LexendGiga";
+  src: url("./LexendGiga-Regular.ttf") format("truetype");
+}
+.OverallMain {
+  height: 3000px;
+  background-color: #131313;
+}
+.OverallMain .Partsmain {
+  display: flex;
+  flex-direction: column;
+}
+.OverallMain .Partsmain .Firstpart {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.OverallMain .Partsmain .Firstpart .Headerclass {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  color: #ffffff;
+  font-family: "BrokenDetroit";
+  font-size: 24px;
+  font-weight: 400;
+  gap: 36px;
+}
+.OverallMain .Partsmain .Firstpart .Headerclass a {
+  color: #ffffff;
+}
+.OverallMain .Partsmain .Firstpart .NewEra {
+  color: #ffffff;
+  width: 854px;
+  position: absolute;
+  font-family: "LexendGiga";
+  font-size: 64px;
+  font-weight: 800;
+  margin-top: 160px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: -9.28px;
+}
+.OverallMain .Partsmain .Firstpart .CyberJunglestext {
+  color: white;
+  font-family: "BrokenDetroit";
+  font-size: 230px;
+  font-weight: 400;
+  letter-spacing: 18.4px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 327px;
+}
+.OverallMain .Partsmain .Firstpart .Heroimageclass {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 397px;
+}
+.OverallMain .Secondpartmain {
+  background: #131313;
+  width: 100%;
+  position: relative;
+}
+.OverallMain .Secondpartmain .Secondpartmaindescription {
+  background-color: #131313;
+  color: white;
+  text-align: center;
+  font-family: "LexendGiga";
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 161px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OverallMain .Secondpartmain .stone1 {
+  width: 58px;
+  height: 58px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 90px;
+  left: 342px;
+}
+.OverallMain .Secondpartmain .stone2 {
+  width: 123px;
+  height: 123px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 119px;
+  right: 76px;
+}
+.OverallMain .Secondpartmain .stone3 {
+  width: 367px;
+  height: 367px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 332px;
+  left: 1px;
+}
+.OverallMain .Charactersmain {
+  margin: 140px 0px 0px 658px;
+  font-family: "BrokenDetroit";
+  color: #ffffff;
+  font-size: 96px;
+  font-weight: 400;
+  letter-spacing: 9.6px;
+}
+.OverallMain .Charactersmain span {
+  color: #99449f;
+}/*# sourceMappingURL=site.css.map */

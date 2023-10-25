@@ -6,10 +6,6 @@
 
 $white_color: #ffffff;
 $purple_color: #99449f;
-.cardsize{
-  width: 540px;
-  height: 934px;
-}
 
 @font-face {
   font-family: "BrokenDetroit";
@@ -26,7 +22,6 @@ $purple_color: #99449f;
   background-color: #131313;
   .Partsmain {
     display: flex;
-    flex-direction: column;
 
     .Firstpart {
       position: relative;
@@ -79,68 +74,70 @@ $purple_color: #99449f;
         margin-top: 397px;
       }
     }
-
-  .Secondpartmain {
-    background: #131313;
-    width: 100%;
-    position: relative;
-    .Secondpartmaindescription {
-      background-color: #131313;
-      color: white;
-      text-align: center;
-      font-family: "LexendGiga";
-      font-size: 24px;
-      font-weight: 400;
-      margin-top: 161px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .stone1 {
-      width: 58px;
-      height: 58px;
-      flex-shrink: 0;
-      position: absolute;
-      top: 90px;
-      left: 342px;
-    }
-    .stone2 {
-      width: 123px;
-      height: 123px;
-      flex-shrink: 0;
-      position: absolute;
-      top: 119px;
-      right: 76px;
-    }
-    .stone3 {
-      width: 367px;
-      height: 367px;
-      flex-shrink: 0;
-      position: absolute;
-      top: 332px;
-      left: 1px;
-    }
-  }
-  .Charactersmain {
-    margin: 140px 0px 0px 658px;
-    font-family: "BrokenDetroit";
-    color: $white_color;
-    font-size: 96px;
-    font-weight: 400;
-    letter-spacing: 9.6px;
-    & span {
-      color: $purple_color;
-    }
   }
 
-  .firstcards{
-    .cardsimages{
-      .firstline{
-        .cardsanddes1{
-          
+    .Secondpartmain {
+      background: #131313;
+      width: 100%;
+      position: relative;
+      .Secondpartmaindescription {
+        background-color: #131313;
+        color: white;
+        text-align: center;
+        font-family: "LexendGiga";
+        font-size: 24px;
+        font-weight: 400;
+        margin-top: 161px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .stone1 {
+        width: 58px;
+        height: 58px;
+        flex-shrink: 0;
+        position: absolute;
+        top: 90px;
+        left: 342px;
+      }
+      .stone2 {
+        width: 123px;
+        height: 123px;
+        flex-shrink: 0;
+        position: absolute;
+        top: 119px;
+        right: 76px;
+      }
+      .stone3 {
+        width: 367px;
+        height: 367px;
+        flex-shrink: 0;
+        position: absolute;
+        top: 332px;
+        left: 1px;
+      }
+      .Charactersmain {
+        margin: 140px 0px 0px 658px;
+        font-family: "BrokenDetroit";
+        color: $white_color;
+        font-size: 96px;
+        font-weight: 400;
+        letter-spacing: 9.6px;
+        & span {
+          color: $purple_color;
+        }
+      }
+      .firstcards{
+        margin-top: 160px;
+        .cardsimages{
+          .firstline{
+            color: #131313;
+          }
         }
       }
 
-   }
- }
+    }
+
+    
+  
 }
